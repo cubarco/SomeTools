@@ -1,3 +1,6 @@
+# For pycharm
+.idea
+
 *.py[cod]
 
 # C extensions
