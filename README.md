@@ -7,3 +7,4 @@ find.py: 联创新手任务第二期
 
 wexinfruit.py: 水果帮3.8号抢水果刷票器（multiprocess）
 
+flowerpassword.py: 花密算法的python实现
