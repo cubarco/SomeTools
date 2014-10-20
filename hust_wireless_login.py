@@ -16,7 +16,7 @@ if content_tmp.find(r"192.168.50.3:8080") > 0:
     import urllib
 
     params_list = re.findall(r"href='.*?\?(.*?)'", content_tmp)
-    params = 'method=login&param=true&fromHtml=true&userAgentForLogin=0&' + params_list[0]
+    params = 'method=login&param=true&' + params_list[0]
 
     data_urlencode = urllib.urlencode({"username": username,
                                        "pwd": password,
