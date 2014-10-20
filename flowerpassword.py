@@ -24,11 +24,11 @@ for i in range(32):
     try:
         int(source[i])
     except ValueError:
-        if temp.find(rule[i]) > -1:
+        if rule[i] in temp:
             source[i] = source[i].upper()
 
 code32 = ''.join(source)
-code1 = code32[:2]
+code1 = code32[0]
 
 try:
     int(code1)
